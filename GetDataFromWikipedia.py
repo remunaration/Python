@@ -17,6 +17,6 @@ for row in column_data[1:]:
     length = len(df)
     df.loc[length] = іndividual_row_data
 
-#df.to_csv(r'C:\Users\Ndersonoff\Desktop\Python project1\Companies.csv', index = False)
+#df.to_csv(r'C:\Users\user\Desktop\Companies.csv', index = False)
 
 
