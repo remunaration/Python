@@ -23,7 +23,6 @@ def api_runnerr():
     try:
         response = session.get(url, params=parameters)
         data = json.loads(response.text)
-        # print(data)
     except (ConnectionError, Timeout, TooManyRedirects) as e:
         print(e)
 
@@ -39,5 +38,5 @@ def api_runnerr():
 for i in range(333):
     api_runnerr()
     print('API Runner completed')
-    sleep(5)# sleep for 1 min
+    sleep(5)
 exit()
