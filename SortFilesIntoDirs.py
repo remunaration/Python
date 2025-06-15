@@ -1,5 +1,5 @@
 import os, shutil
-path = r"C:/Users/Ndersonoff/Desktop/Python project1/"
+path = r"C:/Users/user/Desktop/Python project1/"
 file_name = os.listdir(path)
 
 folder_names = ['csv_files', 'image_files', 'text_files']
