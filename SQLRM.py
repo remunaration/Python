@@ -2,9 +2,7 @@ from jira import JIRA
 from datetime import datetime, timedelta
 import pandas as pd
 from collections import defaultdict
-import os
 import time
-import tkinter as tk
 
 
 
