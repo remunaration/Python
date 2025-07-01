@@ -14,7 +14,7 @@ def api_runnerr():
     }
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': '52c24bd0-c9bd-476f-9cdc-4aaf827fc6b7',
+        'X-CMC_PRO_API_KEY': '***************************',
     }
 
     session = Session()
